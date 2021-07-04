@@ -1,0 +1,45 @@
+.calculatorDisDiv{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorIcDiv{
+    border: 1px solid black;
+    min-width: 300px;
+    max-width: 700px;
+    width: 50%;
+    padding-bottom: 2rem;
+    
+
+}
+
+.calculatorIcDiv > h2{
+    background-color: blue;
+    margin-top: 0;
+    color: white;
+    padding-block: 5px;
+
+}
+.calculatorIcDiv > input{
+    margin-top: 1rem;
+    
+}
+
+/* #hesaplabtn{
+    border: 2px solid blue;
+    outline: none;
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    border-radius: 25%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+} */
+#hesaplabtn:hover{
+   
+    background-color: white;
+    color: blue;
+
+}

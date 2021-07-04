@@ -1,0 +1,28 @@
+.headerdiv {
+  background-color: rgb(90, 99, 223);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.routerDisDiv {
+  background-color: rgb(90, 99, 223);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.routerDivi {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.routerDivi > * {
+  text-decoration: none;
+  color: white;
+}
+.routerDivi > *:hover {
+    color:blue;
+    transition: color 0.5s 0s ease;
+}
