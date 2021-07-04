@@ -23,6 +23,7 @@
   color: white;
 }
 .routerDivi > *:hover {
-    color:blue;
+    color:rgb(231, 227, 2);
+    text-decoration: underline;
     transition: color 0.5s 0s ease;
 }
