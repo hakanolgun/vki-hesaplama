@@ -75,7 +75,7 @@ function Calculator() {
           value={height}
           required
         />
-        <p>{height}</p>
+        <p>{height} {height ? "cm" : ""}</p>
         <br />
         <br />
         <label htmlFor="Weight">Kilo (Kilogram)</label>
@@ -89,7 +89,7 @@ function Calculator() {
           value={weight}
           required
         />
-        <p>{weight}</p>
+        <p>{weight} {weight ? "kg" : ""}</p>
         <br />
         <br />
         <Button id={styles.hesaplabtn} onClick={vkiHesapla}>
