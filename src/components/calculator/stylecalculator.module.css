@@ -38,8 +38,10 @@
     cursor: pointer;
 } */
 #hesaplabtn:hover{
-   
     background-color: white;
     color: blue;
+}
 
+input{
+    width: 250px;
 }

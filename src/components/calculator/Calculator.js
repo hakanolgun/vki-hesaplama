@@ -42,7 +42,7 @@ function Calculator() {
 
   function getStatus(bmi) {
     if (bmi < 18.5) return "Düşük Kilolu";
-    else if (bmi >= 18.5 && bmi < 24.9) return "Normal Kilolu";
+    else if (bmi >= 18.5 && bmi < 24.9) return "Normal";
     else if (bmi >= 25 && bmi < 29.9) return "Fazla Kilolu";
     else return "Obez";
   }
@@ -50,9 +50,9 @@ function Calculator() {
   const Button = styled.button`
   border: 2px solid blue;
   outline: none;
-  padding: 0.4rem;
-  font-size: 1.1rem;
-  border-radius: 25%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5%;
   background-color: blue;
   color: white;
   cursor: pointer;
@@ -67,7 +67,7 @@ function Calculator() {
         <label htmlFor="Height">Boy (Santimetre)</label>
         <br />
         <input
-          type="number"
+          type="range"
           id="Height"
           min="1"
           max="300"
@@ -75,19 +75,21 @@ function Calculator() {
           value={height}
           required
         />
+        <p>{height}</p>
         <br />
         <br />
         <label htmlFor="Weight">Kilo (Kilogram)</label>
         <br />
         <input
-          type="number"
+          type="range"
           id="Weight"
           min="1"
-          max="500"
+          max="300"
           onChange={(e) => setWeight(e.target.value)}
           value={weight}
           required
         />
+        <p>{weight}</p>
         <br />
         <br />
         <Button id={styles.hesaplabtn} onClick={vkiHesapla}>
