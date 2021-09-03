@@ -1,5 +1,5 @@
 #Uygulama Önizleme Bağlantısı:
-[https://vigilant-beaver-02cf6e.netlify.app/](https://vigilant-beaver-02cf6e.netlify.app/)
+[https://vkihesaplama-hakan.netlify.app/](https://vkihesaplama-hakan.netlify.app/)
 
 # Getting Started with Create React App
 
