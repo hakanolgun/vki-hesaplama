@@ -3,6 +3,10 @@
 
 # Vücut Kitle Endeksi Hesaplama Uygulaması
 
+## Tools
+
+* ReactJS
+* JavaScript
 
 
 ## Usage
